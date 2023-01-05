@@ -15,6 +15,3 @@ export const StatisticList = ({ statistics, title }) => {
     </section>
   );
 };
-// StatisticList.propTypes = {
-//   statistics,
-// };
