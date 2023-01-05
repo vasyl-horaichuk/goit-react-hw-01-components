@@ -16,6 +16,11 @@ export const StatisticList = ({ statistics, title }) => {
   );
 };
 
+/*
+  |==============================
+  | PropType
+  |==============================
+*/
 StatisticList.propTypes = {
   title: PropTypes.string,
   statistics: PropTypes.arrayOf(
