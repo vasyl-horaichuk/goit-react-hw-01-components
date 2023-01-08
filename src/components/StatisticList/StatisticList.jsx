@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import { Section } from './StatisticList.styled';
 
 export const StatisticList = ({ statistics, title }) => {
   return (
-    <section class="statistics">
+    <Section>
       {title.length > 0 && <h2 class="title">{title}</h2>}
       <ul class="stat-list">
         {statistics.map(({ id, label, percentage }) => (
@@ -12,7 +13,7 @@ export const StatisticList = ({ statistics, title }) => {
           </li>
         ))}
       </ul>
-    </section>
+    </Section>
   );
 };
 
