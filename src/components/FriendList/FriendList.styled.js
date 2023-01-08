@@ -19,7 +19,7 @@ export const List = styled.ul`
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    width: 400px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
@@ -30,7 +30,7 @@ export const Iteam = styled.li`
     align-items: center;
     width: 400px;
     padding: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 4px; 
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
     :hover {
@@ -49,7 +49,7 @@ export const Avatar = styled.img`
     width: 80px;
 `
 export const TextName = styled.p`
-    color: #524a4d;
+    color: #555555;
     font-size: 30px;
     font-weight: 700;
 `
