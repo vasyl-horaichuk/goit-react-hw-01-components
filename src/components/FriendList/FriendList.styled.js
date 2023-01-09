@@ -23,9 +23,11 @@ export const List = styled.ul`
     margin-left: auto;
     margin-right: auto;
     background-color: white;
+    margin-bottom: 30px;
 `
 export const Iteam = styled.li`
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     align-items: center;
     width: 400px;

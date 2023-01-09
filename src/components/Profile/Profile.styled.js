@@ -14,6 +14,12 @@ export const User = styled.div`
     :hover {
         background-color: rgba(0, 0, 0, 0.1);
         border: 2px solid rgba(0, 0, 0, 0.2);
+       img {
+            background-color: #ffffff;
+       } 
+        ul {
+            background-color: #ffffff;
+        }
     }
 `
 
@@ -31,9 +37,6 @@ export const Avatar = styled.img`
     border-radius: 50%;
     box-shadow: 0 0 3px 0 #0000004e;
     width: 300px;
-    :hover {
-        background-color: #ffffff;
-    }
 `
 
 export const Name = styled.p`
@@ -57,7 +60,7 @@ export const Location = styled.p`
     text-align: center;
 `
 
-export const Stats = styled.div`
+export const Stats = styled.ul`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -65,9 +68,6 @@ export const Stats = styled.div`
     width: 400px;
     background-color: #eeeeeeee;
     padding: 10px;
-    :hover {
-        background-color: #ffffff;
-    }
 `
 
 export const Stat = styled.li`
