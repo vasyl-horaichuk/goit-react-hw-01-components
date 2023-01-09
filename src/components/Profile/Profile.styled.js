@@ -5,6 +5,7 @@ export const User = styled.div`
     flex-wrap: wrap;
     gap: 10px;
     max-width: 400px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
