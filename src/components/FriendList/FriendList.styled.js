@@ -25,7 +25,7 @@ export const List = styled.ul`
     background-color: white;
     margin-bottom: 30px;
 `
-export const Iteam = styled.li`
+export const Item = styled.li`
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
